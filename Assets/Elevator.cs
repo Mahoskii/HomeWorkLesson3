@@ -21,6 +21,7 @@ public class Elevator
         this.Saturday = Saturday;
     }
 
+    // too much. cap variable amount at 3. you dont need to pas most of them as they are cached within the class scope
     public void ElevatorFunction(int CurrentFloor, int ChosenFloor, int PassengerNum, bool Saturday, int MaxCapacity = 480, int MinFloor = -2, int MaxFloor = 10)
     {
         if(CurrentFloor > MaxFloor || CurrentFloor < MinFloor)
