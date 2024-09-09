@@ -17,7 +17,7 @@ public class Homework : MonoBehaviour
 
         Elevator FirstRun = new Elevator(0, 10, 2, false);
         Debug.Log("Elevator Function:");
-        FirstRun.ElevatorFunction(FirstRun.CurrentFloor, FirstRun.ChosenFloor, FirstRun.PassengerNum, FirstRun.Saturday);
+        FirstRun.ElevatorFunction(FirstRun.CurrentFloor, FirstRun.ChosenFloor, FirstRun.PassengerNum, FirstRun.Saturday); //great!
 
     }
 
@@ -50,7 +50,7 @@ public class Homework : MonoBehaviour
                 Debug.Log("Switch Example: Did you know? Isaac Newton invented the cat door!");
                 break;
             case 3:
-                Debug.Log("Switch Example: Did you know? In 1963 Felicette, also known as ‘Astrocat’ was the first and only cat to go to space!");
+                Debug.Log("Switch Example: Did you know? In 1963 Felicette, also known as â€˜Astrocatâ€™ was the first and only cat to go to space!");
                 break;
             default:
                 Debug.Log("Switch Example: Sorry mate, your number is not on the list so no cat facts for you!");
